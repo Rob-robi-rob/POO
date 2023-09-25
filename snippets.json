@@ -1,18 +1,4 @@
 {
-	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-
 	"Basic Structure": {
 		"prefix": "bcpp",
 		"body": [
@@ -50,55 +36,55 @@
     "Input C++": {
         "prefix": "ci",
         "body": [
-            "std::cin >> ${1};",
+            "std::cin >> ${1};"
         ]
     },
     "Clear Screen": {
         "prefix": "cls",
         "body": [
-            "system(\"cls\");",
+            "system(\"cls\");"
         ]
     },
     "output C++": {
         "prefix": "co",
         "body": [
-            "std::cout << ${1};",
+            "std::cout << ${1};"
         ]
     },
     "output w/endLine C++": {
         "prefix": "con",
         "body": [
-            "std::cout << ${1} << endl;",
+            "std::cout << ${1} << endl;"
         ]
     },
     "Integer Declaration": {
         "prefix": "int",
         "body": [
-            "int ${1};",
+            "int ${1};"
         ]
     },
     "Float Number Declaration": {
         "prefix": "flo",
         "body": [
-            "float ${1};",
+            "float ${1};"
         ]
     },
     "Character Declaration": {
         "prefix": "cha",
         "body": [
-            "char ${1};",
+            "char ${1};"
         ]
     },
     "Boolean Declaration": {
         "prefix": "bo",
         "body": [
-            "bool ${1};",
+            "bool ${1};"
         ]
     },
     "Ternary": {
         "prefix": "?",
         "body": [
-            "${1} ? ${2} : ${3};",
+            "${1} ? ${2} : ${3};"
         ]
     },
     "For Loop": {
@@ -133,7 +119,7 @@
             "}"
         ]
     },
-    "For Loop Vector": {
+    "For Loop Vector Personalizada": {
         "prefix": "fovcm",
         "body": [
             "for ( ${1} ${2}: ${3} ) {",
@@ -258,7 +244,7 @@
     "Output With End Line": {
         "prefix": "cel",
         "body": [
-            "std::cout << \"\\n\";",
+            "std::cout << \"\\n\";"
         ]
     },
     "Input With Message": {
@@ -268,7 +254,5 @@
             "int ${2}; std::cin >> ${2}; std::cout << \"\\n\";"
         
         ]
-    },
-    
-    // "classList.add('${1}')"
+    }
 }
